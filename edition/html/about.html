@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>关于我们</title>
+            <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+            <link rel="stylesheet" href="../css/reset.css">
+            <link rel="stylesheet" href="../css/common.css">
+            <link rel="stylesheet" href="../css/about.css">
+            <script src="../js/common.js"></script>
+  </head>
+  <body onload="loaded()">
+          <div id="about">
+              <div class="content">
+                  <!-- tab导航 -->
+                  <div class="wrapper">
+                    <div  class="tab_nav scroller">
+                       <div class="tab b_color">联系方式<span class="line active"></span></div>
+                       <div class="tab">中心概况<span class="line"></span></div>
+                       <div class="tab">服务介绍<span class="line"></span></div>
+                       <div class="tab">中心荣誉<span class="line"></span></div>
+                       <div class="tab">中心历程<span class="line"></span></div>
+                    </div>
+                    <div class="news_list">
+                        <!-- 联系方式 -->
+                        <div class="list_box">
+                            <div class="map"><img src="../img/WechatIMG7.png"></div>
+                        </div>
+                    </div>
+                  </div>
+              </div>
+          </div>  
+  </body>
+  <script src="../js/jquery.js"></script>
+  <script src="../js/index.js"></script>
+  <script src="../js/iscroll.js"></script>
+  <script type="text/javascript">  
+            var myScroll;  
+            function loaded() {  
+                myScroll = new IScroll('.wrapper', {  
+                    scrollX: true,  
+                    scrollY: false,  
+                    click: true,
+                    taps:true,
+                    preventDefault: false
+                });  
+            }  
+            document.addEventListener('touchmove', function(e) {  
+                e.preventDefault();  
+            }, false);  
+        </script> 
+</html>

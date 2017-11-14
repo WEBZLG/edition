@@ -1,0 +1,90 @@
+body{
+  background-color: #f5f5f5;
+  overflow: hidden;
+}
+
+.content {
+  background-color: #fff;
+}
+.title{
+	font-size: 0.810667rem;
+	color: #333;
+	font-weight: bold;
+      line-height: 1.024rem;
+}
+em{
+	font-size: 0.512rem;
+	color: #999;
+	font-weight: initial;
+}
+.text{
+	font-size: 0.64rem;
+	color: #333;
+	line-height: 1.024rem;
+}
+/*广告*/
+.advertisement{
+	height: auto;
+}
+.return img,
+.advertisement img{
+	width: 100%;
+}
+/*tab导航*/
+.tab_nav{
+	display: flex;
+	box-shadow: 0px 2px 15px 0px rgba(171, 171, 171, 0.36);
+}
+.tab_nav .tab{
+	flex: auto;
+	text-align: center;
+	font-size: 0.64rem;
+	color: #666;
+	font-weight: bold;
+	height: 1.834667rem;
+	line-height: 1.834667rem;
+	position: relative;
+      z-index: 999;
+}
+.tab_nav .tab.b_color{
+	color: #057ff3;
+}
+.tab_nav .line.active{
+    display: block;
+    width: 16px;
+    height: 0;
+    border: 0.064rem solid #057ff3;
+    border-radius: 3px;
+    position: absolute;
+    left: 50%;
+    margin-left: -8px;
+    bottom: 0.213333rem;
+}
+.contant{
+      padding: 0 0.426667rem;
+}
+.con_detail{
+    padding: 0.426667rem 0.810667rem;
+}
+/*横向滚动*/
+.scroller {
+  position: absolute;
+  display: flex;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  width: 17.92rem;
+  -webkit-transform: translateZ(0);
+  -moz-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  -o-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-text-size-adjust: none;
+  -moz-text-size-adjust: none;
+  -ms-text-size-adjust: none;
+  -o-text-size-adjust: none;
+  text-size-adjust: none;
+}

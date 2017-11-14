@@ -1,0 +1,21 @@
+.name_list{
+  font-size: 0.64rem;
+  color: #333;
+  line-height: 1.024rem;
+}
+.time_con{
+  line-height: 1.024rem;
+}
+.sm_title{
+  font-weight: bold;
+}
+.name_list p{
+  text-indent: 1.024rem;
+}
+.names{
+    display: block;
+    padding-top: 0.853333rem;
+}
+.time em{
+  padding-right: 0.64rem;
+}

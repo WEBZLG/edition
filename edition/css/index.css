@@ -1,0 +1,138 @@
+.content{
+	padding: 15px 11.5px;
+}
+img{
+	width: 100%;
+}
+p{
+	font-size: 0.512rem;
+	color: rgba(255, 255, 255, 0.6);
+	text-align: center;
+}
+.title{
+	font-size: 0.768rem;
+	color: #fff;
+	text-align: center;
+}
+.top ,
+.bottom {
+	display: flex;
+}
+.bottom{
+	margin-top: -8px;
+}
+.top a,
+.bottom a{
+	display: block;
+	margin:8px 0;
+	border-radius: 4px;
+}
+.top a .img,
+.bottom a .img{
+	display: block;
+}
+.top_left,
+.bottom_left{
+	width: 7.210667rem;
+	margin:0 3.5px;
+}
+.top_right,
+.bottom_right{
+	flex: auto;
+	margin:0 3.5px;
+}
+.news{
+	background-color: #47a7ff;
+	height: 6.613333rem;
+}
+.news .img{
+	width: 1.962667rem;
+	margin:0 auto;
+	padding: 1.664rem 0 1.237333rem;
+}
+.industry{
+	height: 3.157333rem;
+	background-color: #5882f9;
+}
+.industry_box {
+	display: block;
+	padding-top: 1.066667rem
+}
+.industry .img{
+	width: 1.365333rem;
+	margin: 0 0.469333rem 0 0.725333rem;
+}
+.industry .title{
+	line-height: 1.109333rem;
+}
+.demo{
+	height: 3.285333rem;
+	background-color: #057ff3;
+}
+.demo_box{
+	display: block;
+	padding-top: 0.981333rem;
+}
+.demo .img{
+	width: 1.450667rem;
+	margin: 0 0.512rem 0 0.810667rem;
+}
+.demo .title{
+	margin-bottom: 0.213333rem;
+}
+.employment{
+	height: 6.528rem;
+	background-color: #6dc7ff;
+}
+.employment .img{
+	width: 2.773333rem;
+	margin: 0 auto;
+	padding: 1.408rem 0 0.725333rem 0;
+}
+.connect{
+	height: 5.248rem;
+	background-color: #057ff3;
+}
+.connect .img{
+	width: 2.133333rem;
+	margin: 0 auto;
+	padding: 0.810667rem 0 0.597333rem 0;
+}
+.base{
+	height: 4.437333rem;
+	background-color: #ffc236;
+}
+.base .img{
+	width: 1.706667rem;
+	margin: 0 auto;
+	padding: 0.597333rem 0 0.426667rem 0;
+}
+.version{
+	height: 7.808rem;
+	background-color: #00cfe0;
+}
+.version .img{
+	width: 2.133333rem;
+	margin: 0 auto;
+	padding: 1.152rem 0 0.853333rem 0;
+}
+.version .title{
+	margin-bottom: 0.512rem;
+}
+.version p,
+.tort p{
+	line-height: 0.768rem;
+}
+.tort{
+	height: 8.576rem;
+	background-color: #46A7FF;
+}
+.tort .title{
+	text-align: left;
+	padding: 0.64rem 0 0 0.426667rem;
+}
+.tort .img{
+	width: 2.389333rem;
+	margin: 0 auto;
+	padding: 1.28rem 0 1.450667rem 0;
+}
