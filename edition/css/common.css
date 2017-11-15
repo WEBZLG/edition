@@ -3,6 +3,7 @@ body{
 }
 
 .content {
+  padding-bottom: 0.853333rem;
   background-color: #fff;
 }
 .title{
@@ -23,10 +24,14 @@ body{
 .text_center{
   text-align: center;
 }
+.time{
+  line-height: 0.981333rem;
+}
 em{
 	font-size: 0.512rem;
 	color: #999;
 	font-weight: initial;
+      vertical-align: middle;
 }
 .text{
 	font-size: 0.64rem;
@@ -35,9 +40,10 @@ em{
 }
 /*广告*/
 .advertisement{
-	height: auto;
+	height: 6.186667rem;
 }
 .banner{
+    height: 3.072rem;
     padding-top: 0.64rem;
 }
 .return img,
@@ -65,17 +71,17 @@ em{
 }
 .tab_nav .line.active{
     display: block;
-    width: 16px;
+    width: 0.682667rem;
     height: 0;
     border: 0.064rem solid #057ff3;
     border-radius: 3px;
     position: absolute;
     left: 50%;
-    margin-left: -8px;
+    margin-left: -0.341333rem;
     bottom: 0.213333rem;
 }
 .contant{
-      padding: 0 0.426667rem;
+      padding: 0 0.426667rem 1.28rem;
 }
 .con_detail{
     padding: 0.426667rem 0.810667rem;
@@ -107,4 +113,11 @@ em{
   -ms-text-size-adjust: none;
   -o-text-size-adjust: none;
   text-size-adjust: none;
+}
+.run_img{
+  font-size: 0;
+}
+.run_img img{
+  width: 100%;
+
 }
