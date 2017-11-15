@@ -1,3 +1,102 @@
-.news_list{
-	padding-top: 1.92rem;
+/*联系方式*/
+.contant{
+  padding-top:0.64rem;
 }
+.news_list .map{
+  width: 100%;
+  height: 9.728rem;
+}
+.map img{
+  width: 100%;
+  height: 100%;
+}
+.icon {
+  display: block;
+  height: 1.066667rem;
+  width: 1.066667rem;
+  margin: 0.853333rem 0.682667rem;
+}
+.icon_phone{
+  background: url(../img/phone.png) no-repeat;
+  background-size: 100%;
+}
+.icon_fax{
+  background: url(../img/chuanzhen.png) no-repeat;
+  background-size: 100%;
+}
+.icon_email{
+  background: url(../img/email.png) no-repeat;
+  background-size: 100%;
+}
+.icon_site{
+  background: url(../img/dingwei.png) no-repeat;
+  background-size: 100%;
+}
+.connect_box {
+  display: flex;
+  border:1px solid #ddd;
+  border-radius: 4px;
+  margin: 0.213333rem 0;
+  height: 2.773333rem;
+}
+.connect_box .connect{
+  display: block;
+  margin: 0.512rem 0;
+  line-height: 0.853333rem;
+}
+.connect .type{
+  font-size: 0.64rem;
+  color: #333;
+  font-weight: bold;
+}
+.connect .text{
+  font-size: 0.64rem;
+  color: #666;
+}
+/*中心概况*/
+.sm_title{
+  margin: 0.64rem 0;
+}
+.title_color{
+  color: #057ff3;
+}
+.details{
+  border:1px solid #ddd;
+  border-radius: 4px;
+  margin: 0.426667rem 0;
+}
+.details .title{
+  height: 1.792rem;
+  line-height:1.792rem;
+  padding:0 0.853333rem;
+  border-bottom: 1px solid #ddd;
+}
+.details .text{
+    padding:0.64rem 0.853333rem;
+}
+.network{
+  background:url(../img/fuwu_1.png) no-repeat;
+  background-size: 30%;
+  background-position: right bottom;
+}
+.credible{
+  background:url(../img/fuwu_2.png) no-repeat;
+  background-size: 30%;
+  background-position: right bottom;
+}
+.number{
+  background:url(../img/fuwu_3.png) no-repeat;
+  background-size: 30%;
+  background-position: right bottom;
+}
+/*中心荣誉*/
+.img_box{
+  width: 11.264rem;
+  height: 14.336rem;
+  margin: 0 auto 0.64rem;
+}
+.img_box img{
+  height: 100%;
+  width: 100%;
+}
+/*中心历程*/
