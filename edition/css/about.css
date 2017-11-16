@@ -1,6 +1,7 @@
 /*联系方式*/
 .contant{
-  padding: 0.64rem 0;
+  padding-top: 0.64rem;
+  padding-bottom: 0.64rem;
 }
 .news_list .map{
   width: 100%;
@@ -9,6 +10,10 @@
 .map img{
   width: 100%;
   height: 100%;
+}
+#gotobaiduform{
+  font-size: 18px;
+  line-height: 30px;
 }
 .icon {
   display: block;
@@ -100,3 +105,74 @@
   width: 100%;
 }
 /*中心历程*/
+.left{float:left !important;}
+.right{float:right;}
+.clear:after{
+  content:" ";
+  display:block;
+  clear:both;
+}
+#history_process{
+  color:#666;
+  font-size: 0.597333rem;
+  line-height: 1.024rem;
+}
+#history_process .left_date{
+  width: 2.005333rem;
+  padding-right: 0.704rem;
+  padding-left: 0.512rem;
+  position: relative;
+  top: -5px;
+}
+#history_process .left_date .month{
+  color: #999;
+  font-size: 0.512rem;
+  text-align: right;
+}
+#history_process .right_content{
+  font-size: 0.64rem;
+  line-height: 0.768rem;
+  width: 10.922667rem;
+  padding-right: 0.042667rem;
+  padding-left: 0.853333rem;
+  position: relative;
+  border-left: 1px solid #ddd;
+  padding-bottom: 0.981333rem;
+}
+#history_process .right_content .jiantou{
+  display: block;
+  width: 0.554667rem;
+  height: 0.554667rem;
+  position: absolute;
+  left: -0.298667rem;
+  top: 0;
+  background: url(../img/licheng.png) no-repeat;
+  background-size: 100%;
+}
+#history_process .right_content .dian{
+  display: block;
+  width: 0.256rem;
+  height: 0.256rem;
+  border-radius: 0.256rem;
+  background-color: #057ff3;
+  position: absolute;
+  left: -0.170667rem;
+  top: 0.170667rem;
+}
+#history_process .right_content .contents{
+  margin-bottom: 0.426667rem;
+}
+#history_process .right_content .if_img{
+  font-size: 0.554667rem;
+
+  padding-left: 1.024rem;
+  color: #057ff3;
+  cursor: pointer;
+  background: url(../img/photo.png) no-repeat;
+  background-size: 0.597333rem;
+  background-position: 0.298667rem 0.042667rem;
+}
+#history_process .news_img{
+  width: 10.88rem;
+  height: 6.4rem;
+}

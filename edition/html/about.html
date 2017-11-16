@@ -8,6 +8,7 @@
             <link rel="stylesheet" href="../css/common.css">
             <link rel="stylesheet" href="../css/about.css">
             <script src="../js/common.js"></script>
+            <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=6ACPAPFaHdgpWPXGiLHvGnDN05e9NZvy"></script>
   </head>
   <body onload="loaded()">
           <div id="about">
@@ -25,7 +26,7 @@
                     <div class="news_list contant">
                         <!-- 联系方式 -->
                         <div class="list_box ">
-                            <div class="map"><img src="../img/WechatIMG7.png"></div>
+                            <div class="map"><div id="container" style="height: 100%"></div> </div>
                             <ul>
                               <li class="connect_box">
                                 <i class="icon icon_phone"></i>
@@ -89,13 +90,191 @@
                         </div>
                         <!-- 中心历程 -->
                         <div class="list_box none">
-
+                          <ol id="history_process">
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2007年</p>
+                                <p class="month">03月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程等四大数字出版工程通过可行性论证<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2010年</p>
+                                <p class="month">05月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程总体组成立<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2011年</p>
+                                <p class="month">07月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程正式启动<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="month">08月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="dian"></span>
+                                <div class="contents">
+                                  总局重大领导到总体组检查部署工作<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2012年</p>
+                                <p class="month">05月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  工程完成需求分析阶段工作<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="month">08月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="dian"></span>
+                                <div class="contents">
+                                  新闻出版重大科技工程项目领导小组办公室牵头，联合工程总体组、总集成、管控、标准和监理开展概要设计前的轮巡检查工作<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2013年</p>
+                                <p class="month">10月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程所有分包通过了概要设计阶段专家评审<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2014年</p>
+                                <p class="month">11月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  工程完成详细设计阶段工作<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="month">12月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="dian"></span>
+                                <div class="contents">
+                                  工程完成集成测试阶段工作<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2015年</p>
+                                <p class="month">06月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  新闻出版重大科技工程项目领导小组办公室下发《关于确定数字版权保护技术研发工程应用推广单位的通知》，明确中国新闻出版研究院为数字版权保护技术研发工程应用推广单位<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="month">10月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="dian"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程所有分包通过了系统测试阶段专家评审<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="month">12月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="dian"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程所有分包通过了初检阶段专家评审<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="year">2016年</p>
+                                <p class="month">04月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="jiantou"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程所有分包通过了第三方测试<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                            <li class="clear">
+                              <div class="left left_date">
+                                <p class="month">05月</p>
+                              </div>
+                              <div class="left right_content">
+                                <span class="dian"></span>
+                                <div class="contents">
+                                  数字版权保护技术研发工程即将进入全面应用推广的新阶段.....<span class="if_img">收起图片</span>
+                                </div>
+                                <img class="news_img" src="../img/news.jpg" alt="图片加载中">
+                              </div>
+                            </li>
+                          </ol>
                         </div>
                   </div>
               </div>
           </div>  
   </body>
   <script src="../js/jquery.js"></script>
+  <script src="../js/map.js"></script>
   <script src="../js/index.js"></script>
   <script src="../js/iscroll.js"></script>
   <script type="text/javascript">  

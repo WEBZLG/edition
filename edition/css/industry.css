@@ -11,7 +11,7 @@
 }
 .names{
     display: block;
-    padding-top: 0.853333rem;
+    padding: 0.853333rem 0;
 }
 .time em{
   padding-right: 0.64rem;

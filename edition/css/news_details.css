@@ -27,3 +27,6 @@ textarea{
     border: none;
     outline: none;
 }
+.text_box{
+  margin-bottom: 0.64rem;
+}
