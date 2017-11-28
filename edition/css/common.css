@@ -172,6 +172,13 @@ textarea{
     border-radius: 0.917333rem;
     background-color: #047ff6;
 }
+.ban_title{
+  height: 2.98667rem;
+  margin: 0.384rem 0;
+}
+.ban_title img{
+  width: 100%;
+}
 input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     font-size: 0.725333rem;
 　　color: #999;
