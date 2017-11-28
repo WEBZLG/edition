@@ -124,3 +124,67 @@ em{
   width: 100%;
 
 }
+
+/*投诉*/
+.form_box{
+  padding: 0.384rem 0.469333rem;
+
+}
+.ipt{
+    height: 1.856rem;
+    width: 100%;
+    border: 0;
+    outline: none;
+    text-indent: 12px;
+    color: #333;
+    font-size: 0.725333rem;
+}
+.ipt_box{
+  border-bottom: 1px solid #ddd;
+}
+.con_box{
+  border-radius: 0.170667rem;
+  overflow: hidden;
+}
+textarea{
+    width: 100%;
+    letter-spacing: 1px;
+    height:8.64rem;
+    outline: none;
+    border:none;
+    color: #333;
+    font-size: 0.725333rem;
+    margin: 0.384rem 0 0.469333rem;
+    text-indent: 12px;
+    line-height: 1.28rem;
+    border-radius: 0.170667rem;
+     resize : none;
+     padding: 10px 0;
+     box-sizing: border-box;
+}
+.sub{
+      width: 100%;
+    border: none;
+    outline: none;
+    color: #fff;
+    height: 1.877333rem;
+    font-size: 0.725333rem;
+    border-radius: 0.917333rem;
+    background-color: #047ff6;
+}
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    font-size: 0.725333rem;
+　　color: #999;
+}
+input:-moz-placeholder, textarea:-moz-placeholder {
+    font-size: 0.725333rem;
+　　color: #999;
+}
+input::-moz-placeholder, textarea::-moz-placeholder {
+    font-size: 0.725333rem;
+　　color: #999;
+}
+input:-ms-input-placeholder, textarea:-ms-input-placeholder {
+    font-size: 0.725333rem;
+　　color: #999;
+}
