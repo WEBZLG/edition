@@ -195,3 +195,26 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     font-size: 0.725333rem;
 　　color: #999;
 }
+
+/*下载页面*/
+.load_btn{
+  display: block;
+  height: 1.877333rem;
+  line-height: 1.877333rem;
+  background-color: #61cc7c;
+  border-radius: 0.917333rem;
+  width: 94%;
+  margin:0 auto; 
+  text-align: center;
+  color: #fff;
+  font-size: 0.725333rem;
+}
+.android{
+  display: inline-block;
+  height: 1.28rem;
+  width:1.066667rem;
+  background:url(../img/android.png); 
+  background-size: cover;
+  vertical-align: middle;
+  margin: 0 0.597333rem;
+}

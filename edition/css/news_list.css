@@ -17,6 +17,12 @@
 	padding: 0.213333rem;
 	font-weight: bold;
 }
+#news .news_title h3{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 2;
+	overflow: hidden;
+}
 #news ul>li a{
 	display: block;
 	position: relative;
